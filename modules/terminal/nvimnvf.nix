@@ -12,9 +12,6 @@
           ];
 
           luaConfigRC.nvimConfigDir = ''
-            vim.lsp.config("nixd", {})
-            vim.lsp.start("nixd")
-
             vim.opt.clipboard = 'unnamedplus' 
           '';
           
